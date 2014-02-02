@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[println!("${1:{}}"${2})]]></content>
+	<tabTrigger>prrl</tabTrigger>
+	<scope>source.rust</scope>
+	<description>println!("…"…)</description>
+</snippet>

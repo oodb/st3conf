@@ -1,0 +1,34 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai_custom.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Droid Sans Mono Slashed",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"bold"
+	],
+	"font_size": 9,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"open_files_in_new_window": false,
+	"rulers":
+	[
+		120
+	],
+	"scroll_past_end": false,
+	"show_encoding": true,
+	"show_full_path": true,
+	"tab_completion": false,
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

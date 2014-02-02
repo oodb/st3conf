@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[foreach (\$${1:traversable} as \$${2:each}) {
+	${0:# code...}
+}]]></content>
+    <tabTrigger>foreach</tabTrigger>
+    <scope>source.php</scope>
+    <description>foreach …</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[\$sql = '${1}';
+\$params = array(${2});
+\$query = DB::getInstance()->prepare(\$sql);
+${3}\$query->execute(\$params);${4:
+\$row = \$query->fetch(DB::FETCH_ASSOC);}]]></content>
+    <tabTrigger>pdoq</tabTrigger>
+    <scope>source.php</scope>
+    <description></description>
+</snippet>
