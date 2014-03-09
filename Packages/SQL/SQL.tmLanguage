@@ -231,7 +231,7 @@
 			<key>match</key>
 			<!-- 'order by' must be before 'or' or it will highlight only the 'or' part of 'order' -->
 			<!-- FIXME the '\:[a-zA-Z0-9_]+' part at the end should highlight all PDO prepared arguments, but not always working -->
-			<string>(?i:\b(select(\s+distinct)?|insert\s+(ignore\s+)?into|update|delete|from|set|where|group\sby|order\sby|or|like|and|union(\s+all)?|case|when|then|else|end|having|limit|(inner|cross)?\s+join|straight_join|(left|right)?(\s+outer)?\s+join|natural(\s+(left|right)?(\s+outer)?)?\s+join|join)|change|modify|default\b)|\:[a-zA-Z0-9_]+</string>
+			<string>(?i:\b((select(\s+distinct)?|insert\s+(ignore\s+)?into|update|delete|from|set|where|group\sby|order\sby|or|like|and|union(\s+all)?|case|when|then|else|end|having|limit|(inner|cross)?\s+join|straight_join|(left|right)?(\s+outer)?\s+join|natural(\s+(left|right)?(\s+outer)?)?\s+join|join)|change|modify|default)\b)|\:[a-zA-Z0-9_]+</string>
 			<key>name</key>
 			<string>keyword.other.DML.sql</string>
 		</dict>
